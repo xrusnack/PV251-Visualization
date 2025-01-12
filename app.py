@@ -51,6 +51,8 @@ app = Dash(__name__, external_stylesheets=[
     'https://fonts.googleapis.com/css2?family=Jura:wght@200&display=swap'
 ])
 
+server = app.server
+
 # *******APP LAYOUT**************
 
 app.layout = html.Div(
