@@ -334,7 +334,7 @@ def get_county_graph2(disease, county):
             paper_bgcolor="#F1F6F1", 
             font_color="black",  
             xaxis=dict(dtick=1),
-            yaxis=dict(range=[0, 100])
+            yaxis=dict(range=[0, 100], title="Percentage")
         )
     
     else:
